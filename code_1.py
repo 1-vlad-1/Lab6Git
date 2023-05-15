@@ -1,4 +1,4 @@
-def capitalize(String):
+def capitalize(String): # функция выводящая слова с большой буквы
     return String.title()
 capitalize("shop") # [Shop]
 capitalize("python programming") # [Python Programming]
