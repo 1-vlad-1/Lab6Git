@@ -12,7 +12,7 @@ dic1={1:"hello", 2:"world"}
 dic2={3:"Python", 4:"Programming"}
 merge(dic1,dic2) # {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}
 
-import time
+import time # импортируем модуль
 start_time= time.time()
 def fun():
     a=2
