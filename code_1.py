@@ -1,6 +1,6 @@
 def capitalize(String): # функция выводящая слова с большой буквы
     return String.title()
-capitalize("shop") # [Shop]
+capitalize("ant") # [Ant] master and future
 capitalize("python programming") # [Python Programming]
 capitalize("how are you!") # [How Are You!]
 
@@ -8,16 +8,16 @@ def merge(dic1,dic2):
     dic3=dic1.copy()
     dic3.update(dic2)
     return dic3
-dic1={1:"hello", 2:"world"}
+dic1={1:"start", 2:"end"} # master
 dic2={3:"Python", 4:"Programming"}
-merge(dic1,dic2) # {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}
+merge(dic1,dic2) # {1: 'start', 2: 'end', 3: 'Python', 4: 'Programming'} master
 
 import time
 start_time= time.time()
 def fun():
     a=2
     b=3
-    c=a+b
+    c= a ** b # future
 end_time= time.time()
 fun()
 timetaken = end_time - start_time
